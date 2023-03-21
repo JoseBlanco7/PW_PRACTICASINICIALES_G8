@@ -1,0 +1,135 @@
+body{
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+.login-form, .contenedor{
+    width: 300px;
+    margin:0 auto;
+}
+.login-form h1{
+    text-align: center;
+    color: midnightblue;
+    font-size: 28px;
+    padding: 70px 0 10 px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="text"] {
+    width: 100px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+/* estilos boton login */
+.btn-login{
+    width: 100px;
+    padding: 15px;
+    background-color: cornflowerblue;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+}
+.btn-login:hover, .btn-login:active{
+    color: #ffffff;
+    background-color: #1bdb35;
+    border-color: #28be49;
+
+}
+.btn-login:focus{
+    box-shadow:0 0 0 3px rgba(6, 72, 196, 0.788);
+}
+
+.btn-register{
+    width: 100px;
+    padding: 15px;
+    background-color: cornflowerblue;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    margin-top: 20px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+.btn-register:hover, .btn-register:active{
+    color: #ffffff;
+    background-color: #11329bad;
+    border-color: #2f1896;
+
+}
+.btn-register:focus{
+    box-shadow:0 0 0 3px rgba(18, 33, 175, 0.25);
+}
+
+.register-form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px 60px 20px;
+    margin-top: 35px;
+    font-family: roboto;
+    text-align: left;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22)
+}
+
+.btn-save{
+    width: 50%;
+    padding: 15px;
+    background-color: #1D4ED8;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    color: #ffffff;
+    margin-top: 20px;
+    /*apariencia de un boton*/
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-save:hover, .btn-save:active{
+    color: #fff;
+    background-color: #1D4ED8;
+    border-color: #1E3ABA;
+}
+
+.btn-cancel{
+    width: 50%;
+    padding: 15px;
+    background-color: #6B7280;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    color: #ffffff;
+    margin-top: 20px;
+    /*apariencia de un boton*/
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-cancel:hover, .btn-cancel:active{
+    color: #fff;
+    background-color: #6B7280;
+    border-color: #6B7280;
+}
+/*
+.btn-cancel:focus{
+    box-shadow: 0 0 0 3px #6B7280;
+}
+*/
+/*estilo boton guardar*/
